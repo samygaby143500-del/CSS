@@ -1,0 +1,119 @@
+body {
+    background-color: #141413;
+    font-family: "Roboto Serif", serif;
+    color: white;
+    text-align: center;
+}
+header{
+    border-bottom: solid rgb(54, 54, 54);
+    padding: 15px;
+    margin-bottom: 40px;
+}
+img{
+    border-radius: 50%;
+}
+
+h1 {
+    color: #D4833F;
+    font-size: 50px;
+}
+
+.subtitulo {
+    color: #F1A667;
+    font-size: 24px;
+    font-weight: 500;
+}
+main{
+    font-weight:100;
+    padding: 15px;
+    border: 2px solid rgb(54, 54, 54);
+    background-color:black;
+    width: 450px;
+    margin: auto; 
+}
+.perfil{
+  font-size: medium;
+}
+.info-perfil{
+    text-align: center;
+    font-size: small;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    color: rgb(183, 182, 182);
+}
+.enlace{
+    text-decoration: none;
+    color: rgb(116, 116, 116);
+}
+#parte-info-personal{
+  
+    padding: 15px;
+
+}
+legend{
+    font-weight: 900;
+   
+}
+input[type="text"],input[type="email"],textarea{
+    background-color: #444444;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.seleccionar{
+    color: #8d8787;
+    background-color: #141413;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+option{
+    color: #494949;
+}
+p{
+    font-size: small
+}
+.opciones{
+    font-size: small;
+    padding: 15px;
+}
+#informacion{
+    border: 2px solid rgb(54, 54, 54);
+    background-color:black;
+    padding: 15px;
+
+}
+#contacto{
+    border: 2px solid rgb(54, 54, 54);
+}
+fieldset{
+    border: none;
+  
+}
+#btm-contacto{
+    background-color: #F1A667;
+}
+#btm-portafolio{
+    background-color: #D4833F;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 700;
+    color: #fff;
+    
+}
+.boton{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+    border-top: 2px dashed rgb(54, 54, 54);
+}
+div{
+    padding: 5px;
+}
+form{
+    padding: 25px;
+}

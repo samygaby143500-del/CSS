@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Park Ji-hoon</title>
+    <link rel="stylesheet" href="perfil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="/basico/assets/img/jihoon.jpg" alt="" width="300px">
+        </div>
+        <div>
+            <h1>PARK JI HOON</h1>
+            <h3 class="subtitulo">ACTOR Y CANTANTE</h3>
+        </div>
+
+    </header>
+    <main>
+        <section id="informacion">
+            <div id="parte-perfil">
+                <h2 class="perfil">PERFIL</h2>
+                <p class="info-perfil">
+                    Es un cantante y actor surcoreano. Inicialmente, fue 
+                    actor infantil y modelo publicitario. Saltó a la fama 
+                    a principios de 2017 tras obtener el segundo puesto 
+                    en la segunda temporada del reality show Produce.
+                </p>
+            </div>
+            <div id="parte-info-personal">
+                <h3>INFORMACION PERSONAL</h3>
+                <p><strong>Años activo: </strong> 2017-presente </p>
+                <p><strong>Residencia: </strong> Seúl, Corea del Sur</p>
+                <p><strong>pagina web: </strong> <a href="http://park-jihoon.co.kr/"
+                        class="enlace">park-jihoon.co.kr</a></p>
+            </div>
+        </section>
+
+        <section class="contacto">
+            <form action="">
+                <fieldset>
+                    <legend>CONTACTO FANDOM</legend>
+                    <div id="div-tres">
+                        <label for="nombre"></label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre de pila*">
+                    </div>
+                    <div id="div-tres">
+                        <label for="apellido"></label>
+                        <input type="text" name="apellido" id="apellido" placeholder="Apellido*">
+                    </div>
+                    <div>
+                        <label for="correo"></label>
+                        <input type="email" name="correo" id="correo" placeholder="Direccion de correo electronico">
+                    </div>
+                    <div>
+                        <label for="compañia"></label>
+                        <input type="text" name="compañia" id="compañia" placeholder="compañia" required>
+                    </div>
+                    <div>
+                        <label for="interes"></label>
+                        <textarea name="interes" id="interes" placeholder="¿Cual es tu interes?"></textarea>
+                    </div>
+                    <div >
+                        <label for="quien"></label>
+                        <select name="quien" id="quien" class="seleccionar">
+                            <option value="publicidad">Publicidad y asociaciones</option>
+                            <option value="Equipo">Equipo Wiki/comunidad</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <div class="opciones">
+                        <label for="acepto">Acepto recibir comunidades de Fandom</label>
+                        <input type="checkbox" name="acepto" id="acepto">
+
+                    </div>
+                    <div class="opciones">
+                        <label for="robot"><strong>No soy un robot</strong></label>
+                        <input type="checkbox" name="robot" id="robot">
+                    </div>
+                    <div class="boton">
+                        <button id="btm-contacto" class="btn">Contactar</button>
+                        <button type="submit" id="btm-portafolio" class="btn" >Portafolio</button>
+                    </div>
+                </fieldset>
+
+            </form>
+
+        </section>
+    </main>
+</body>
+
+</html>
